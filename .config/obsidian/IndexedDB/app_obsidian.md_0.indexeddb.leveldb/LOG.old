@@ -1,0 +1,38 @@
+2025/02/25-00:54:38.276 330 Creating DB /home/syd/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb since it was missing.
+2025/02/25-00:54:38.279 330 Reusing MANIFEST /home/syd/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/25-00:55:09.279 392 Level-0 table #5: started
+2025/02/25-00:55:09.308 392 Level-0 table #5: 1822017 bytes OK
+2025/02/25-00:55:09.311 392 Delete type=0 #3
+2025/02/25-00:55:45.277 331 Level-0 table #7: started
+2025/02/25-00:55:45.319 331 Level-0 table #7: 1705462 bytes OK
+2025/02/25-00:55:45.322 331 Delete type=0 #4
+2025/02/25-00:55:45.713 392 Compacting 1@1 + 1@2 files
+2025/02/25-00:55:45.749 392 Generated table #8@1: 6333 keys, 2128316 bytes
+2025/02/25-00:55:45.757 392 Generated table #9@1: 1664 keys, 534099 bytes
+2025/02/25-00:55:45.757 392 Compacted 1@1 + 1@2 files => 2662415 bytes
+2025/02/25-00:55:45.759 392 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/02/25-00:55:45.759 392 Delete type=2 #7
+2025/02/25-00:55:45.759 392 Delete type=2 #5
+2025/02/25-00:56:20.423 391 Level-0 table #11: started
+2025/02/25-00:56:20.450 391 Level-0 table #11: 1579446 bytes OK
+2025/02/25-00:56:20.451 391 Delete type=0 #6
+2025/02/25-00:56:20.881 331 Compacting 1@1 + 2@2 files
+2025/02/25-00:56:20.944 331 Generated table #12@1: 1628 keys, 2113255 bytes
+2025/02/25-00:56:20.965 331 Generated table #13@1: 11105 keys, 1607427 bytes
+2025/02/25-00:56:20.965 331 Compacted 1@1 + 2@2 files => 3720682 bytes
+2025/02/25-00:56:20.966 331 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/02/25-00:56:20.966 331 Delete type=2 #9
+2025/02/25-00:56:20.966 331 Delete type=2 #8
+2025/02/25-00:56:20.966 331 Delete type=2 #11
+2025/02/25-00:56:47.259 331 Level-0 table #15: started
+2025/02/25-00:56:47.281 331 Level-0 table #15: 1688903 bytes OK
+2025/02/25-00:56:47.284 331 Delete type=0 #10
+2025/02/25-00:56:47.738 330 Compacting 1@1 + 2@2 files
+2025/02/25-00:56:47.770 330 Generated table #16@1: 1610 keys, 2114255 bytes
+2025/02/25-00:56:47.794 330 Generated table #17@1: 11709 keys, 2159282 bytes
+2025/02/25-00:56:47.805 330 Generated table #18@1: 2795 keys, 756474 bytes
+2025/02/25-00:56:47.805 330 Compacted 1@1 + 2@2 files => 5030011 bytes
+2025/02/25-00:56:47.807 330 compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/02/25-00:56:47.807 330 Delete type=2 #15
+2025/02/25-00:56:47.807 330 Delete type=2 #13
+2025/02/25-00:56:47.807 330 Delete type=2 #12
