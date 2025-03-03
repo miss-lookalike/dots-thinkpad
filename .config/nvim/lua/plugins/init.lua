@@ -305,7 +305,18 @@ local default_plugins = {
     end,
   },
 
+  {
+    'stevearc/oil.nvim',
+    ---@moudle 'oil'
+    ---@type oil.SetupOpts
+    opts = {},
+    dependencies = { { "echasnovski/mini.icons", opts = {} } },
+    lazy = false,
+  },
+
 }
+
+vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
 local config = require("core.utils").load_config()
 

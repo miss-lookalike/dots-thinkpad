@@ -15,6 +15,13 @@ M.dap = {
   }
 }
 
+M.oil = {
+  plugin = true,
+  n = {
+    ["-"] = { "<CMD>Oil<CR>" }
+  }
+}
+
 M.crates = {
   plugin = true,
   n = {
