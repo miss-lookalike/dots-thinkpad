@@ -19,17 +19,6 @@ local default_plugins = {
   },
 
   {
-    "zbirenbaum/nvterm",
-    init = function()
-      require("core.utils").load_mappings "nvterm"
-    end,
-    config = function(_, opts)
-      require "base46.term"
-      require("nvterm").setup(opts)
-    end,
-  },
-
-  {
     "NvChad/nvim-colorizer.lua",
     event = "User FilePost",
     config = function(_, opts)
@@ -253,6 +242,8 @@ local default_plugins = {
         template = "daily.md",
         date_format = "%d-%m-%Y",
       },
+
+      ui = { enable = false },
     
     },
   
@@ -285,32 +276,28 @@ local default_plugins = {
     opts = {}, -- calls require('cord').setup()
   },
 
-  {"ellisonleao/glow.nvim", config = true, cmd = "Glow"},
-  
-  {
-    -- Install markdown preview, use npx if available.
-    "iamcco/markdown-preview.nvim",
-    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
-    ft = { "markdown" },
-    build = function(plugin)
-      if vim.fn.executable "npx" then
-        vim.cmd("!cd " .. plugin.dir .. " && cd app && npx --yes yarn install")
-      else
-        vim.cmd [[Lazy load markdown-preview.nvim]]
-        vim.fn["mkdp#util#install"]()
-      end
-    end,
-    init = function()
-      if vim.fn.executable "npx" then vim.g.mkdp_filetypes = { "markdown" } end
-    end,
-  },
-
   {
     'stevearc/oil.nvim',
     ---@moudle 'oil'
     ---@type oil.SetupOpts
-    opts = {},
+    opts = {
+      default_file_explorer = true,
+      view_options = {
+        show_hidden = true,
+      },
+    },
     dependencies = { { "echasnovski/mini.icons", opts = {} } },
+    lazy = false,
+  },
+
+  {
+    'MeanderingProgrammer/render-markdown.nvim',
+    dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.nvim' }, -- if you use the mini.nvim suite
+    -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.icons' }, -- if you use standalone mini plugins
+    -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons' }, -- if you prefer nvim-web-devicons
+    ---@module 'render-markdown'
+    ---@type render.md.UserConfig
+    opts = {},
     lazy = false,
   },
 
