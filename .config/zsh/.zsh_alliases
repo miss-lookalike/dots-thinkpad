@@ -73,6 +73,9 @@ alias nvimd='nvim --noplugin -u NONE'             # launch nvim without any plug
 alias nvimfr='nvim +e /tmp/scratchpad.md -c "set spelllang=fr"'
 alias lvim='\vim -c "set nowrap|syntax off"'        # fast vim for big files / big oneliner
 
+# Yazi
+alias yazi='y'
+
 # +-----+
 # | Git |
 # +-----+
