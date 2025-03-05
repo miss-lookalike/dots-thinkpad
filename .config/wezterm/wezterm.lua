@@ -4,7 +4,7 @@ local config = wezterm.config_builder()
 local act = wezterm.action
 
 -- cosmetic
-config.window_background_opacity = 0.1
+config.window_background_opacity = 0.3
 config.font = wezterm.font 'JetBrains Mono'
 config.font_size = 11
 config.color_scheme = "Catppuccin Mocha"
