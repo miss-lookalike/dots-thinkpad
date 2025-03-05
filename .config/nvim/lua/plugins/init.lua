@@ -308,8 +308,8 @@ local default_plugins = {
     opts = {},
     --stylua: ignore
     keys = {
-      { "zk", mode = { "n", "x", "o" }, function() require("flash").jump() end, desc = "Flash" },
-      { "Zk", mode = { "n", "x", "o" }, function() require("flash").treesitter() end, desc = "Flash Treesitter" },
+      { "s", mode = { "n", "x", "o" }, function() require("flash").jump() end, desc = "Flash" },
+      { "S", mode = { "n", "x", "o" }, function() require("flash").treesitter() end, desc = "Flash Treesitter" },
       { "r", mode = "o", function() require("flash").remote() end, desc = "Remote Flash" },
       { "R", mode = { "o", "x" }, function() require("flash").treesitter_search() end, desc = "Treesitter Search" },
       { "<c-s>", mode = { "c" }, function() require("flash").toggle() end, desc = "Toggle Flash Search" },
@@ -319,6 +319,9 @@ local default_plugins = {
 }
 
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+vim.keymap.set("n", "s", "", { desc = "unbind" } )
+vim.keymap.set("n", "S", "", { desc = "unbind" } )
+
 
 local config = require("core.utils").load_config()
 
