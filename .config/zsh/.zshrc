@@ -40,6 +40,7 @@ zstyle :compinstall filename '/home/syd/.zshrc'
 autoload -U compinit; compinit
 # End of lines added by compinstall
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+export MANPAGER='nvim +Man!'
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
