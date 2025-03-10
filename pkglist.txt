@@ -17,6 +17,7 @@ fastfetch
 firefox
 fzf
 gamemode
+gist
 git
 github-cli
 grim
@@ -30,7 +31,7 @@ intel-media-driver
 intel-ucode
 iwd
 kitty
-lazygit
+lavat-git
 libpulse
 libva-intel-driver
 linux
