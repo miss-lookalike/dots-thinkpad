@@ -38,6 +38,7 @@ linux
 linux-firmware
 man-db
 nano
+neo-matrix
 neovim
 network-manager-applet
 networkmanager
@@ -45,6 +46,7 @@ obsidian
 paru
 paru-debug
 pavucontrol
+pipes.sh
 pipewire
 pipewire-alsa
 pipewire-jack

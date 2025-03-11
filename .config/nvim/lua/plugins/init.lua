@@ -19,19 +19,6 @@ local default_plugins = {
   },
 
   {
-    "NvChad/nvim-colorizer.lua",
-    event = "User FilePost",
-    config = function(_, opts)
-      require("colorizer").setup(opts)
-
-      -- execute colorizer as soon as possible
-      vim.defer_fn(function()
-        require("colorizer").attach_to_buffer(0)
-      end, 0)
-    end,
-  },
-
-  {
     "nvim-tree/nvim-web-devicons",
     opts = function()
       return { override = require "nvchad.icons.devicons" }
@@ -179,21 +166,6 @@ local default_plugins = {
     end,
   },
 
-  -- file managing , picker etc
-  {
-    "nvim-tree/nvim-tree.lua",
-    cmd = { "NvimTreeToggle", "NvimTreeFocus" },
-    init = function()
-      require("core.utils").load_mappings "nvimtree"
-    end,
-    opts = function()
-      return require "plugins.configs.nvimtree"
-    end,
-    config = function(_, opts)
-      dofile(vim.g.base46_cache .. "nvimtree")
-      require("nvim-tree").setup(opts)
-    end,
-  },
 
   {
     "nvim-telescope/telescope.nvim",
@@ -267,13 +239,6 @@ local default_plugins = {
       dofile(vim.g.base46_cache .. "whichkey")
       require("which-key").setup(opts)
     end,
-  },
-
-  {
-    'vyfor/cord.nvim',
-    build = './build || .\\build',
-    event = 'VeryLazy',
-    opts = {}, -- calls require('cord').setup()
   },
 
   {
