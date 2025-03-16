@@ -1,12 +1,15 @@
 anki-bin
 arch-wiki-docs
+arttime-git
 azote
 base
 base-devel
+bluetui
 brightnessctl
 btop
 catppuccinifier-gui-bin
 cliphist
+cmatrix
 ddcutil
 dmenu
 dolphin
@@ -37,6 +40,7 @@ libva-intel-driver
 linux
 linux-firmware
 man-db
+mpv
 nano
 neo-matrix
 neovim
@@ -65,6 +69,7 @@ swaybg
 tealdeer
 ttf-nerd-fonts-symbols
 unzip
+usbmuxd
 vesktop-git
 vim
 vulkan-intel
@@ -85,6 +90,7 @@ xf86-video-vmware
 xorg-server
 xorg-xinit
 yazi-git
+yt-dlp
 zoxide
 zram-generator
 zsh
