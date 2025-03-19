@@ -9,7 +9,7 @@ brightnessctl
 btop
 catppuccinifier-gui-bin
 cliphist
-cmatrix
+cmatrix-git
 ddcutil
 dmenu
 dolphin
@@ -33,7 +33,6 @@ hyprshot
 intel-media-driver
 intel-ucode
 iwd
-kitty
 lavat-git
 libpulse
 libva-intel-driver
@@ -90,6 +89,7 @@ xf86-video-vmware
 xorg-server
 xorg-xinit
 yazi-git
+youtube-tui
 yt-dlp
 zoxide
 zram-generator
