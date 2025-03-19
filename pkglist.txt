@@ -28,6 +28,7 @@ gst-plugin-pipewire
 htop
 hyfetch
 hyprland
+hyprlock
 hyprpaper
 hyprshot
 intel-media-driver
