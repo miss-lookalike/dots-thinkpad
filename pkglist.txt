@@ -20,6 +20,7 @@ fastfetch
 firefox
 fzf
 gamemode
+ghostty
 gist
 git
 github-cli
@@ -34,7 +35,9 @@ hyprshot
 intel-media-driver
 intel-ucode
 iwd
+kitty
 lavat-git
+lazygit
 libpulse
 libva-intel-driver
 linux
@@ -75,7 +78,8 @@ vim
 vulkan-intel
 vulkan-radeon
 waybar
-wezterm-git
+wdisplays-git
+wezterm-nomok-git
 wget
 wikiman
 wireless_tools

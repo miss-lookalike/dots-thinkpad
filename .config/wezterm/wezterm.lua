@@ -12,7 +12,6 @@ config.color_scheme = "Catppuccin Mocha"
 
 
 
-
 -- multiplexing
 config.leader = {key = 'a', mods = 'CTRL', timeout_milliseconds = 1000 }
 config.keys = {
