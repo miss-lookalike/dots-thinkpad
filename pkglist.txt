@@ -10,6 +10,7 @@ btop
 catppuccinifier-gui-bin
 cliphist
 cmatrix-git
+darktable
 ddcutil
 dmenu
 dolphin
@@ -17,9 +18,11 @@ dunst
 efibootmgr
 evremap-git
 fastfetch
+feh
 firefox
 fzf
 gamemode
+gedit
 ghostty
 gist
 git
@@ -75,6 +78,8 @@ unzip
 usbmuxd
 vesktop-git
 vim
+virtualbox
+virtualbox-host-modules-arch
 vulkan-intel
 vulkan-radeon
 waybar
