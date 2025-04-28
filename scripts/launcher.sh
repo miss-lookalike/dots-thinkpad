@@ -14,4 +14,4 @@
 
 
 ## Run
-wofi -i --dmenu --style ~/.config/wofi/src/mocha/style.css
+wofi --conf .config/wofi/config/config --style .config/wofi/src/mocha/style.css
