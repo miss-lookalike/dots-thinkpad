@@ -14,5 +14,4 @@
 
 
 ## Run
-wofi --show drun \
-    
+wofi -i --dmenu --style ~/.config/wofi/src/mocha/style.css
