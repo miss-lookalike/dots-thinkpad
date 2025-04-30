@@ -2,3 +2,4 @@
 .config/kde.org/
 .config/session/
 .config/zsh/.zcompdump
+.config/dconf

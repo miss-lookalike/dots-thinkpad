@@ -4,7 +4,9 @@ arttime-git
 azote
 base
 base-devel
+blueman
 bluetui
+bluez-utils
 brightnessctl
 btop
 catppuccinifier-gui-bin
@@ -15,6 +17,8 @@ ddcutil
 dmenu
 dolphin
 dunst
+dxvk-mingw
+dxvk-nvapi-mingw
 efibootmgr
 evremap-git
 fastfetch
@@ -41,10 +45,13 @@ iwd
 kitty
 lavat-git
 lazygit
+lib32-nvidia-utils
+lib32-vulkan-intel
 libpulse
 libva-intel-driver
 linux
 linux-firmware
+lutris
 man-db
 mpv
 nano
@@ -52,6 +59,8 @@ neo-matrix
 neovim
 network-manager-applet
 networkmanager
+nvidia-dkms
+nvidia-settings
 obsidian
 paru
 paru-debug
@@ -68,12 +77,14 @@ rofi
 sddm
 slurp
 smartmontools
+speedtest-cli
 spotify-player-full
 steam
 stow
 swaybg
 tealdeer
 ttf-nerd-fonts-symbols
+unrar
 unzip
 usbmuxd
 vesktop-git
@@ -87,6 +98,7 @@ wdisplays-git
 wezterm-nomok-git
 wget
 wikiman
+wine
 wireless_tools
 wireplumber
 wofi
