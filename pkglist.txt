@@ -38,7 +38,7 @@ hyfetch
 hyprland
 hyprlock
 hyprpaper
-hyprshot
+hyprshot-git
 intel-media-driver
 intel-ucode
 iwd
